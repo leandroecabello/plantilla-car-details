@@ -1,0 +1,13 @@
+/* service */
+#services {
+    margin-top: $top-margin-secction;
+    .card-service {
+        margin-top: $top-margin-content;
+        .icon-service {
+            font-size: 5rem;
+        }   
+    }
+}
+
+@import './card-image/card-image'
+

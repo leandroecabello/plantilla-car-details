@@ -1,0 +1,12 @@
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: $title-font-weight;
+    color: $title-primary-color;
+    .logo-brand {
+        min-width: 160px;
+        max-width: 180px;
+    }
+    &:hover {
+        color: $text-hover-color;
+    }
+}

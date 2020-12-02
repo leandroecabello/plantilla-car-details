@@ -1,0 +1,53 @@
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+h2 {
+    font-size: $title-font-size;
+    font-weight: $title-font-weight;
+    color: $title-primary-color
+}
+
+p {
+    font-size: $text-font-size;
+    color: $text-primary-color;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 575.98px) { 
+    
+    .aboutMe-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutMe-content p {
+        margin-top: 15px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #gallery .card-image{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+@media (min-width: 1200px) { } 
+    

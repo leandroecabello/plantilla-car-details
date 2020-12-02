@@ -1,0 +1,7 @@
+.nav-link {
+    font-size: $text-font-size;
+    color: $text-primary-color;
+    &:hover {
+        color: $text-hover-color;
+    }
+}  

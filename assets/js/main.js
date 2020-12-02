@@ -1,0 +1,27 @@
+let serviceTitle = document.querySelector("#service-title");
+let cardServiceImageOne = document.querySelector("#card-service-image-1");
+let cardServiceImageTwo = document.querySelector("#card-service-image-2");
+let cardServiceImageThree = document.querySelector("#card-service-image-3");
+let aboutMeTitle = document.querySelector("#aboutMe-title");
+let aboutMeText = document.querySelector("#aboutMe-text");
+let galleryTitle = document.querySelector("#gallery-title");
+let cardImageOne = document.querySelector("#card-image-1");
+let cardImageTwo = document.querySelector("#card-image-2");
+let cardImageThree = document.querySelector("#card-image-3");
+let cardImageFour = document.querySelector("#card-image-4");
+let cardImageFive = document.querySelector("#card-image-5");
+let cardImageSix = document.querySelector("#card-image-6");
+
+ScrollReveal().reveal(serviceTitle, { delay: 250 });
+ScrollReveal().reveal(cardServiceImageOne, { delay: 350 });
+ScrollReveal().reveal(cardServiceImageTwo, { delay: 450 });
+ScrollReveal().reveal(cardServiceImageThree, { delay: 550 });
+ScrollReveal().reveal(aboutMeTitle, { delay: 350 });
+ScrollReveal().reveal(aboutMeText, { delay: 450 });
+ScrollReveal().reveal(galleryTitle, { delay: 250 });
+ScrollReveal().reveal(cardImageOne, { delay: 350 });
+ScrollReveal().reveal(cardImageTwo, { delay: 450 });
+ScrollReveal().reveal(cardImageThree, { delay: 550 });
+ScrollReveal().reveal(cardImageFour, { delay: 650 });
+ScrollReveal().reveal(cardImageFive, { delay: 750 });
+ScrollReveal().reveal(cardImageSix, { delay: 850 });

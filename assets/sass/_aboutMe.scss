@@ -1,0 +1,24 @@
+/* About Me */
+#aboutMe {
+    background-image: url('/assets/img/car-cover-page-6-min.jpg');   
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: $top-margin-secction;
+    h2{
+        color: $title-secondary-color;
+        text-shadow: $text-shadow;
+    }    
+    p{
+        color: $text-secondary-color;
+        text-shadow: $text-shadow;
+    }
+    .aboutMe-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+ 

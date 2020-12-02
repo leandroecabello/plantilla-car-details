@@ -1,0 +1,16 @@
+/*  Navbar */
+.navbar {
+    background: $bg-primary-color;
+    box-shadow: $box-shadow;
+    min-height: 80px;    
+}
+
+@import './menu/navbar-brand';
+@import './menu/navbar-toggler';
+@import './menu/nav-link';
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+/* colours */
+
+$color1: #333333;
+$color2: #ffffff;
+$color3: #485aff;
+$color4: rgba(0, 0, 0, 0.5);
+$color5: rgba(0, 0, 0, 0.3);
+
+$bg-primary-color: $color2;
+$bg-secondary-color: $color1;
+
+$bg-card-text: $color5;
+
+$title-primary-color: $color1;
+$title-secondary-color: $color2;
+$text-primary-color: $color1;
+$text-secondary-color: $color2;
+
+$text-hover-color: $color3;
+
+$box-shadow:  0 2px 4px 0 $color4;
+$card-box-shadow: 0 3px 3px 0 $color4;
+$text-shadow: 1px 1px 2px $color1;
+
+$card-border: 2px solid $color1;
+
+/* sizes */
+$title-font-size: 3rem;
+$text-font-size: 1.3rem;
+
+$title-font-weight: 700;
+
+$top-margin-secction: 90px;
+$top-margin-content: 5vh
